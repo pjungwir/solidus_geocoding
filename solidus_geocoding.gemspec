@@ -31,10 +31,8 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'deface'
   s.add_dependency 'geocoder'
-  s.add_dependency 'solidus_core', ['>= 2.0.0', '< 3']
-  s.add_dependency 'solidus_support', '~> 0.5'
+  s.add_dependency 'spree_core', ['>= 3.7.14']
 
   s.add_development_dependency 'coffee-rails'
   s.add_development_dependency 'sass-rails'
-  s.add_development_dependency 'solidus_dev_support'
 end

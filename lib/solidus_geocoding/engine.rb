@@ -4,8 +4,6 @@ require 'spree/core'
 
 module SolidusGeocoding
   class Engine < Rails::Engine
-    include SolidusSupport::EngineExtensions
-
     isolate_namespace Spree
 
     engine_name 'solidus_geocoding'

@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'solidus_core'
-require 'solidus_support'
+require 'spree_core'
 require 'solidus_geocoding/engine'
 require 'geocoder'
